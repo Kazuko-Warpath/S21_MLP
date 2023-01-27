@@ -1,0 +1,180 @@
+Серый rgb(182, 185, 186);
+Темно-серый rgb(132, 142, 147)
+Зеленый rgb(143, 156, 141)
+Голубой rgb(180, 195, 201)
+Еще голубой rgb(176, 189, 197)
+Синий rgb(56, 97, 115)
+Желтый rgb(216, 181, 140)
+
+Фон серый rgb(239, 239, 239)
+
+1
+border: 1px solid gray;
+background-color: rgb(180, 195, 201);
+color: black;
+
+border: 1px solid gray;
+background-color: rgb(56, 97, 115);
+color: white;
+
+QRadioButton {
+color: black;
+background-color: rgb(229, 230, 232);}
+
+QRadioButton::indicator {
+    width:                  10px;
+    height:                 10px;
+    border-radius:         5px;
+}
+
+QRadioButton::indicator:checked {
+    background-color:       white;
+    border:                 3px solid rgb(56, 97, 115);
+}
+
+QRadioButton::indicator:unchecked {
+    background-color:       white;
+    border:                 1px solid gray;
+}
+
+2
+
+border: 1px solid gray;
+background-color: rgb(189, 193, 195);
+color: black;
+
+border: 1px solid gray;
+background-color: rgb(148, 179, 193);
+color: black;
+
+background-color: rgb(239, 239, 239);
+
+QRadioButton {
+color: black;
+background-color: rgb(239, 239, 239);}
+
+QRadioButton::indicator {
+    width:                  10px;
+    height:                 10px;
+    border-radius:         5px;
+}
+
+QRadioButton::indicator:checked {
+    background-color:       rgb(148, 179, 193);
+    border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color:       white;
+    border:                 1px solid gray;
+}
+
+3
+
+border: 1px solid gray;
+background-color: rgb(225, 212, 150);
+color: black;
+  
+border: 1px solid gray;
+background-color: rgba(132, 161, 124, 214);
+color: black;
+
+background-color: rgb(251, 242, 213)
+
+QRadioButton {
+color: black;
+background-color: rgb(251, 242, 213);}
+
+QRadioButton::indicator {
+    width:                  10px;
+    height:                 10px;
+    border-radius:         5px;
+}
+
+QRadioButton::indicator:checked {
+    background-color:       rgba(132, 161, 124, 214);
+    border:                 1px solid gray;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color:       white;
+    border:                 1px solid gray;
+}
+
+  QSlider::groove{
+    background: white;
+    position: absolute; /* absolutely position 4px from the left and right of the widget. setting margins on the widget should work too... */
+    left: 9px; right: 9px;
+	border-radius:1px;
+}
+
+
+QSlider::add-page{
+    background: rgb(169, 217, 215);
+   border: 1px solid rgb(169, 217, 215);
+	border-radius:1px;
+}
+
+QSlider::sub-page {
+    background: rgb(237, 236, 238);
+   border: 1px solid rgb(228, 226, 229);
+	border-radius:1px;
+}
+
+QSlider::handle {
+    height: 18px;
+	border-radius:8px;
+    background: rgb(169, 217, 215);
+    margin: 0 -8px; /* expand outside the groove */
+   border: 1px solid gray;
+}
+
+width: 22px;
+margin: -10px;
+border: 1px solid transparent;
+border-radius: 5px;
+
+width: 18px;
+border-radius:18px;
+background-color: rgb(148, 179, 193);
+ border: 1px solid gray;
+ margin: -8px 0px
+
+ QSlider::handle {
+height: 18px;
+width: 10px;
+margin: -8px;
+border: 1px solid black;
+border-radius: 5px;
+background-color: rgb(148, 179, 193);
+}
+
+QSlider::groove:horizontal {
+    background: white;
+   
+    height: 5px;
+	border-radius:1px;
+}
+
+ QSlider::handle:horizontal {
+height: 10px;
+width: 10px;
+margin: -8px;
+border: 1px solid gray;
+background-color: rgb(148, 179, 193);
+}
+
+QSlider::add-page:horizontal {
+
+    background: white;
+   border: 1px solid gray;
+	border-radius:1px;
+
+}
+
+QSlider::sub-page:horizontal  {
+    background: rgb(148, 179, 193);
+   border: 1px gray;
+	border-radius:1px;
+}
+
